@@ -3,7 +3,7 @@ import Logo from "../assets/logo-text.png"
 const Nav = () => {
     return (
         <div className="border-b border-[#F1F5F9]">
-       <nav className='flex justify-between gap-4 container mx-auto py-4 h-20 sticky'>
+       <nav className='flex justify-between gap-4 container mx-auto py-4 h-20 sticky  top-0 z-50'>
         <img className="h-9 w-auto pl-10" src={Logo} alt="" />
         <ul className="flex gap-4 items-center text-[#475569]">
             <li><a href=""><span className="text-[#DB2777]">Home</span></a></li>
